@@ -3122,16 +3122,12 @@ video {
 
 	#footer {
 		padding: 6em 0 6em 0 ;
-		background-color: #4686a0;
-		color: rgba(255, 255, 255, 0.75);
-		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #4361c2, #4fa49a 50%, #9dc66b 95%);
-		background-position: top left,						center center,					center center;
-		background-size: auto,							cover,							cover;
+		background-size: cover;
+		background-image: url("images/nightsky.jpg");
 		text-align: center;
 	}
 
-		#footer a {
+		#footer a:before {
 			border-bottom-color: rgba(255, 255, 255, 0.5);
 		}
 
